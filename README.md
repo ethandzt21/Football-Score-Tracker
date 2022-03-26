@@ -1,9 +1,9 @@
 # Football Score Tracker
 Treasure Hacks 2.0
-
 Score Tracker for American Football with Python Tkinter GUI
 
 During the NFL season, the scores must be closely monitored to ensure the fairness of the high intensity games. To make this scoring process as easy as possible, we made a simple score tracker specifically desgined for American Football.
+
 
 ## Inspiration
 Our inspiration came from the recent news of the NFL star Tom Brady and his return to the league soon after his retirement decision. We were often intrigued about the NFL scoring system and thus we wanted to create a simple score-tracking program with a Graphical User Interface (GUI) to increase user-friendliness.
