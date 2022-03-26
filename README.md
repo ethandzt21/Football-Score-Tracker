@@ -3,6 +3,20 @@ Treasure Hacks 2.0
 
 Score Tracker for American Football with Python Tkinter GUI
 
-During Football games, the score must be tracked by the NFL. To make this process as easy as can be, we made a score tracker. 
-Everytime you score a touchdown, click the button and it adds 6 points. 
-For a field goal it will add 3 points and for a field kick it will add one point.
+During the NFL season, the scores must be closely monitored to ensure the fairness of the high intensity games. To make this scoring process as easy as possible, we made a simple score tracker specifically desgined for American Football.
+
+## Inspiration
+Our inspiration came from the recent news of the NFL star Tom Brady and his return to the league soon after his retirement decision. We were often intrigued about the NFL scoring system and thus we wanted to create a simple score-tracking program with a Graphical User Interface (GUI) to increase user-friendliness.
+## What it does
+The program has 6 buttons that allows the user to add score to either the home or visiting team and 2 additional buttons to reset the score tracker or exit the program. With the color blue representing the home team and the color red representing the visting team, the user can click on each corresponding button to add 3 points for a Field Goal, 6 points for a Touch Down, and 1 point for a Field Kick. The scores will be automatically calculated and updated on the GUI for the user, and the color differentiation between the home and visiting team also makes the scoring process straighforward. The reset button, just like its name, resets the scores for both teams in preparation for a new game, and the quit button simply provides an easy way for the user to exit the program safely.
+## How we built it
+
+## Challenges we ran into
+
+## Accomplishments that we're proud of
+
+## What we learned
+
+## What's next for Football Score Tracker
+
+
