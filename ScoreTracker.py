@@ -24,6 +24,7 @@ def visit_tracker(num):
     counter += num
     score2.config(text=str(counter))
 
+
 # Grid
 HomeTeam.grid(row=0, column=0)
 VisitTeam.grid(row=1, column=0)
@@ -51,13 +52,17 @@ field_kick1.grid(row=4, column=0)
 field_kick2 = tk.Button(root, text="Field Kick", width=20, command=lambda: visit_tracker(1), fg="red")
 field_kick2.grid(row=4, column=1)
 
+# resets score counter for both teams
 def reset_score():
-  score1.config(text="0")
-  score2.config(text="0")
-  
+    score1.config(text="0")
+    score2.config(text="0")
+
+
 reset_button = tk.Button(root, text="RESET", width=5, command=lambda: reset_score(), fg="green")
 reset_button.grid(row=7, column=0)
 
-quit = Button(text = "Quit", width=5, command = root.destroy, fg = "green")
-quit.grid(row = 7, column = 1)
+# quit button for user to exit program
+quit = Button(text="Quit", width=5, command=root.destroy, fg="green")
+quit.grid(row=7, column=1)
+
 mainloop()
